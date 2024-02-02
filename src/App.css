@@ -1,0 +1,41 @@
+.side_bar{
+    position: fixed;
+    left: 0;
+    top: 50px;
+    width: 300px !important;
+    height: 100vh;
+    /* z-index: 1; */
+    background-color: black;
+    color: rgb(254,189,105);
+    overflow: scroll;
+
+}
+.main_content{
+    padding-left: 300px !important;
+}
+/* .main_content button{
+    position: absolute;
+    bottom: 0;
+} */
+
+.card_description{
+    text-overflow: ellipsis !important;
+    white-space: nowrap;
+  overflow: hidden;
+}
+.header{
+    position: fixed;
+    top: 0;
+    z-index: 1;
+
+}
+.card_img{
+    height: 200px;
+}
+.card_img img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain!important;
+    text-align: center;
+}
+
